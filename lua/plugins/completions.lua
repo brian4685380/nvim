@@ -1,14 +1,15 @@
 vim.pack.add({
-  {
-    src = "https://github.com/saghen/blink.cmp",
-  },
+  { src = "https://github.com/saghen/blink.cmp", version = "1.*" },
 })
 
 vim.pack.add({
-  "https://github.com/L3MON4D3/LuaSnip",
+  { src = "https://github.com/L3MON4D3/LuaSnip" },
 })
 
 local opts = {
+  fuzzy = {
+    implementation = "lua",
+  },
   sources = {
     default = { "lsp", "path", "snippets", "buffer" },
   },
