@@ -27,6 +27,10 @@ map("n", "<leader>O", "O<Esc>")
 map("n", "<leader>m", "ma")
 map("n", "<leader>'", "'a")
 map("n", "gB", "<C-t>")
+map("n", "<leader>h", "<C-w>h")
+map("n", "<leader>j", "<C-w>j")
+map("n", "<leader>k", "<C-w>k")
+map("n", "<leader>l", "<C-w>l")
 map("v", "y", '"*y')
 map("n", "E", ":Ex<CR>")
 map("n", "<leader>nv", ":vnew<CR>:Ex<CR>")
@@ -56,6 +60,3 @@ map('i', '<A-k>', '<Esc>:m .-2<CR>==gi', { desc = 'Move line up' })
 -- Visual Mode: Move selection
 map('v', '<A-k>', ":m '<-2<CR>gv=gv", { desc = 'Move selection up' })
 map('v', '<A-j>', ":m '>+1<CR>gv=gv", { desc = 'Move selection down' })
-
-
-
