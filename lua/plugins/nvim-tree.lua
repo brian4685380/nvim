@@ -21,6 +21,8 @@ end
 require("nvim-tree").setup({
   on_attach = on_attach,
   view = {
+    number = true,
+    relativenumber = true,
     width = 34,
     side = "left",
   },
