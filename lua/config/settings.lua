@@ -19,3 +19,6 @@ vim.g.tex_flavor = "latex"
 vim.g.mapleader = " "
 vim.g.netrw_liststyle = 3
 vim.o.gcr = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
+
+vim.o.spell = true
+vim.o.spelllang = "en_us"
