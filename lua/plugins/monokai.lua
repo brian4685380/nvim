@@ -9,3 +9,7 @@ monokai.setup({
 })
 
 vim.cmd.colorscheme("monokai")
+vim.api.nvim_set_hl(0, "Visual", {
+  bg = "#44475A",
+  underline = true,
+})
