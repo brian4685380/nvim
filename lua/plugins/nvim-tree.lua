@@ -16,6 +16,7 @@ local function on_attach(bufnr)
   api.map.on_attach.default(bufnr)
 
   vim.keymap.set("n", "t", api.node.open.tab, opts("Open: New Tab"))
+  vim.keymap.set("n", "v", api.node.open.vertical, opts("Open: Vertical Split"))
 end
 
 require("nvim-tree").setup({
