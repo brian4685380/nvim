@@ -3,6 +3,7 @@ local servers = {
   require("lsp.lua_ls"),
   require("lsp.pyright"),
   require("lsp.rust_analyzer"),
+  require("lsp.sourcekit"),
   require("lsp.tinymist"),
 }
 
